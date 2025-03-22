@@ -27,7 +27,7 @@ export function PlayerSelect({ value, onChange }: PlayerSelectProps) {
                 className="appearance-none bg-[#2A2A2A] text-white px-5 py-4 pr-12 rounded-xl focus:outline-none focus:ring-2 focus:ring-[#FF3E3E] w-full md:w-44 text-lg"
             >
                 <option value="spotify">Spotify</option>
-                <option value="youtube">YouTube</option>
+                <option value="youtube">YT Music</option>
                 <option value="apple">Apple Music</option>
             </select>
             <div className="absolute right-4 top-1/2 transform -translate-y-1/2 text-white pointer-events-none">
